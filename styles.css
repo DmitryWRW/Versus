@@ -1,0 +1,136 @@
+.header-logo-link {
+  text-decoration: none;
+  font-size: 24px;
+  margin-left: 265px;
+}
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  padding-top: 43px;
+}
+.header-link {
+  text-decoration: none;
+  margin-left: 40px;
+  font-family: Lato;
+  font-size: 11px;
+  text-align: left;
+  color: rgba(153, 153, 153, 1);
+  letter-spacing: 1px;
+}
+.header-link:hover {
+  color: rgba(0, 214, 180, 1);
+}
+.container {
+  background-image: url(bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 540px;
+  width: 1440px;
+}
+* {
+  color: rgba(255, 255, 255, 1);
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+.nav {
+  margin-left: 565px;
+}
+
+.title {
+  margin-top: 226px;
+  font-size: 48px;
+  width: 465px;
+  height: 106px;
+  text-align: center;
+}
+.title-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-wrapper {
+  color: rgba(0, 214, 180, 1);
+  margin-top: 29px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1999px;
+}
+button {
+  box-sizing: border-box;
+  color: rgba(0, 214, 180, 1);
+  background-color: transparent;
+  border: 1px solid #00d6b4;
+  border-radius: 3px;
+  height: 39px;
+  width: 137px;
+}
+.main {
+  background-color: #222;
+
+  width: 1440px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 136px;
+}
+.img-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(3, 225px);
+  gap: 22px 20px;
+}
+img {
+  height: 225px;
+  width: 300px;
+  border-radius: 3px;
+}
+.sub-title {
+  text-align: center;
+  margin-bottom: 33px;
+}
+.footer-container {
+  height: 122px;
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+}
+footer {
+  background: #222;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-title-wrapper {
+  width: 70px;
+  height: 22px;
+  margin-bottom: 10px;
+}
+.footer-title {
+  color: rgba(194, 194, 194, 1);
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+.footer-subtitle-wrapper {
+  width: 121px;
+  height: 18px;
+  margin-bottom: 37px;
+}
+.footer-subtitle {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #999999;
+}
